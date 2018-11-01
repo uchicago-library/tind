@@ -1,0 +1,41 @@
+h1 {
+	color: white;
+	font-size: 1.5rem;
+	margin-left: 1em;
+}
+
+h2 {
+	color: #2b81ba;
+	font-size: 1.4rem;
+	margin-left: 1em;
+}
+
+table.submitBody .submission-form .form-group {
+	margin: 1em 2em;
+}
+
+table.submitBody .submission-form .form-group label {
+    display: block;
+}
+
+.form-check-label {
+	display: inline-block!important;
+}
+
+.submitElemText {
+	display: block;
+    width: auto;
+    font-size: 0.8rem;
+    margin-top: 0.5em;
+}
+
+i.fas.fa-plus-circle {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #2b81ba;
+}
+
+section + section {
+	border-top: 1px solid #2b81ba;
+    padding-top: 10px;
+}
