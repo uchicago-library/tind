@@ -12,6 +12,13 @@ h2 {
 
 abbr {
     color: red;
+    border-bottom: none;
+}
+
+abbr[data-original-title], abbr[title] {
+	border-bottom: none;
+	border-bottom-color: transparent;
+	text-decoration: none;
 }
 
 table.submitBody .submission-form .form-group {
