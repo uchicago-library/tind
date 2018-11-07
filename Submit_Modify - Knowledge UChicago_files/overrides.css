@@ -10,12 +10,27 @@ h2 {
 	margin-left: 1em;
 }
 
+abbr {
+    color: red;
+    border-bottom: none;
+}
+
+abbr[data-original-title], abbr[title] {
+	border-bottom: none;
+	border-bottom-color: transparent;
+	text-decoration: none;
+}
+
 table.submitBody .submission-form .form-group {
 	margin: 1em 2em;
 }
 
 table.submitBody .submission-form .form-group label {
     display: block;
+}
+
+.submitElemHeader {
+    width: max-content;
 }
 
 .form-check-label {
