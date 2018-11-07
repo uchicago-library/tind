@@ -1,4 +1,6 @@
 # ADA Recommendations for TIND Forms
+[Design Mock with suggesgted reorganization.](https://uchicago-library.github.io/tind/SubmitObject.html)
+
 ## Priority Items
 - Restate what type of form it is as an h1 (Example: `<h1>Submit/Modify an Article</h1>`)
 - Use h2s for all section headers
