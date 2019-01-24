@@ -6,7 +6,8 @@
 - Use h2s for all section headers
 - Remove entire form from table. Only use tables for tabular data.
 - Do not use `display:none;` or `visibility: hidden;`
-- `<fieldset>` and `class="form-group"` are used
+- Enclose form sections in `<fieldset>` (See example code below for in use example)
+- Group field elements (label, input, etc) within a `<div class="form-group">` (See example code below for in use example)
 - Required elements use `<abbr title="required">*</abbr>`
 - Show relationship between label and field (Example: `<label for="ISSN">ISSN/ISBN</label> <input type="text" id="ISSN" name="ISSN">`)
 - Show relationship between input and help text (Example: `<input class="form-control" type="text" name="ISSN" aria-describedby="ISSNHelp" value=""><span id=”ISSNHelp” class="submitElemText">ISBN of the publication.</span>`)
